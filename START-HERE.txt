@@ -1,0 +1,23 @@
+INVILINKS — READY TO UPLOAD
+
+index.html is directly at the top level of this ZIP.
+Extract the ZIP and upload all the extracted files and folders together.
+Keep assets/, vendor/, pricing/, how-it-works/ and photo-credits/ alongside index.html.
+Do not upload only index.html; the accompanying files are required.
+There is no build step.
+
+LOCAL PREVIEW
+From the extracted folder, run: python3 -m http.server 8000
+Open http://localhost:8000
+
+EDITING
+Shared page content: scripts/build-pages.py
+Styles: experience.css
+Menus and inquiries: app.js
+Scrolling: experience.js
+Page-loading animation: transitions.js
+After edits run: python3 scripts/build-pages.py
+It regenerates the HTML directly in this folder.
+
+Contains the latest social links, scroll fix, matching package designs,
+and flexible opening-style descriptions. Keep the included licenses and credits.
